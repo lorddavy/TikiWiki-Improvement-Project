@@ -1,17 +1,17 @@
-<?php /* Smarty version Smarty-3.1.21, created on 2017-05-23 16:16:45
+<?php /* Smarty version Smarty-3.1.21, created on 2017-06-01 17:41:52
          compiled from "D:\xampp\htdocs\tiki\templates\canonical.tpl" */ ?>
-<?php /*%%SmartyHeaderCode:239185924444de9e605-51394940%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
+<?php /*%%SmartyHeaderCode:3225593035c03e8817-01816191%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
   'file_dependency' => 
   array (
     'bf8a888fe814fda03c32ef6fbf6bc7ee288a0809' => 
     array (
       0 => 'D:\\xampp\\htdocs\\tiki\\templates\\canonical.tpl',
-      1 => 1465296177,
+      1 => 1496331454,
       2 => 'file',
     ),
   ),
-  'nocache_hash' => '239185924444de9e605-51394940',
+  'nocache_hash' => '3225593035c03e8817-01816191',
   'function' => 
   array (
   ),
@@ -32,9 +32,9 @@ $_valid = $_smarty_tpl->decodeProperties(array (
   ),
   'has_nocache_code' => false,
   'version' => 'Smarty-3.1.21',
-  'unifunc' => 'content_5924444df08172_62907508',
+  'unifunc' => 'content_593035c045e120_45011821',
 ),false); /*/%%SmartyHeaderCode%%*/?>
-<?php if ($_valid && !is_callable('content_5924444df08172_62907508')) {function content_5924444df08172_62907508($_smarty_tpl) {?><?php if (!is_callable('smarty_modifier_sefurl')) include 'D:/xampp/htdocs/tiki/lib/smarty_tiki\\modifier.sefurl.php';
+<?php if ($_valid && !is_callable('content_593035c045e120_45011821')) {function content_593035c045e120_45011821($_smarty_tpl) {?><?php if (!is_callable('smarty_modifier_sefurl')) include 'D:/xampp/htdocs/tiki/lib/smarty_tiki\\modifier.sefurl.php';
 ?>
 <?php if ($_smarty_tpl->tpl_vars['prefs']->value['feature_canonical_url']=='y'&&isset($_smarty_tpl->tpl_vars['mid']->value)) {?>
 	<?php if ($_smarty_tpl->tpl_vars['mid']->value=='tiki-show_page.tpl'||$_smarty_tpl->tpl_vars['mid']->value=='tiki-index_p.tpl'||$_smarty_tpl->tpl_vars['mid']->value=='tiki-show_page_raw.tpl'||$_smarty_tpl->tpl_vars['mid']->value=='tiki-all_languages.tpl'||$_smarty_tpl->tpl_vars['mid']->value=='tiki-show_content.tpl') {?>

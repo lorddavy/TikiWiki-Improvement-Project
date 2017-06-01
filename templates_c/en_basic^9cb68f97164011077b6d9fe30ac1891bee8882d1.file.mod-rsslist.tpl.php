@@ -1,17 +1,17 @@
-<?php /* Smarty version Smarty-3.1.21, created on 2017-05-23 16:16:46
+<?php /* Smarty version Smarty-3.1.21, created on 2017-06-01 17:41:53
          compiled from "D:\xampp\htdocs\tiki\templates\modules\mod-rsslist.tpl" */ ?>
-<?php /*%%SmartyHeaderCode:246095924444e331a64-70019890%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
+<?php /*%%SmartyHeaderCode:31699593035c10211b0-68471137%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
   'file_dependency' => 
   array (
     '9cb68f97164011077b6d9fe30ac1891bee8882d1' => 
     array (
       0 => 'D:\\xampp\\htdocs\\tiki\\templates\\modules\\mod-rsslist.tpl',
-      1 => 1454345128,
+      1 => 1496331454,
       2 => 'file',
     ),
   ),
-  'nocache_hash' => '246095924444e331a64-70019890',
+  'nocache_hash' => '31699593035c10211b0-68471137',
   'function' => 
   array (
   ),
@@ -33,9 +33,9 @@ $_valid = $_smarty_tpl->decodeProperties(array (
   ),
   'has_nocache_code' => false,
   'version' => 'Smarty-3.1.21',
-  'unifunc' => 'content_5924444e3940f7_59011421',
+  'unifunc' => 'content_593035c10916b9_22480000',
 ),false); /*/%%SmartyHeaderCode%%*/?>
-<?php if ($_valid && !is_callable('content_5924444e3940f7_59011421')) {function content_5924444e3940f7_59011421($_smarty_tpl) {?><?php if (!is_callable('smarty_block_tikimodule')) include 'D:/xampp/htdocs/tiki/lib/smarty_tiki\\block.tikimodule.php';
+<?php if ($_valid && !is_callable('content_593035c10916b9_22480000')) {function content_593035c10916b9_22480000($_smarty_tpl) {?><?php if (!is_callable('smarty_block_tikimodule')) include 'D:/xampp/htdocs/tiki/lib/smarty_tiki\\block.tikimodule.php';
 if (!is_callable('smarty_function_icon')) include 'D:/xampp/htdocs/tiki/lib/smarty_tiki\\function.icon.php';
 if (!is_callable('smarty_block_tr')) include 'D:/xampp/htdocs/tiki/lib/smarty_tiki\\block.tr.php';
 ?><?php $_smarty_tpl->smarty->_tag_stack[] = array('tikimodule', array('error'=>$_smarty_tpl->tpl_vars['module_params']->value['error'],'title'=>$_smarty_tpl->tpl_vars['tpl_module_title']->value,'name'=>"rsslist",'flip'=>$_smarty_tpl->tpl_vars['module_params']->value['flip'],'decorations'=>$_smarty_tpl->tpl_vars['module_params']->value['decorations'],'nobox'=>$_smarty_tpl->tpl_vars['module_params']->value['nobox'],'notitle'=>$_smarty_tpl->tpl_vars['module_params']->value['notitle'])); $_block_repeat=true; echo smarty_block_tikimodule(array('error'=>$_smarty_tpl->tpl_vars['module_params']->value['error'],'title'=>$_smarty_tpl->tpl_vars['tpl_module_title']->value,'name'=>"rsslist",'flip'=>$_smarty_tpl->tpl_vars['module_params']->value['flip'],'decorations'=>$_smarty_tpl->tpl_vars['module_params']->value['decorations'],'nobox'=>$_smarty_tpl->tpl_vars['module_params']->value['nobox'],'notitle'=>$_smarty_tpl->tpl_vars['module_params']->value['notitle']), null, $_smarty_tpl, $_block_repeat);while ($_block_repeat) { ob_start();?>

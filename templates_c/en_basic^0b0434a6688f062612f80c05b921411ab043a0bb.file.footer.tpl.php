@@ -1,17 +1,17 @@
-<?php /* Smarty version Smarty-3.1.21, created on 2017-05-23 16:16:46
+<?php /* Smarty version Smarty-3.1.21, created on 2017-06-01 17:41:53
          compiled from "D:\xampp\htdocs\tiki\templates\footer.tpl" */ ?>
-<?php /*%%SmartyHeaderCode:233485924444e40e295-62218222%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
+<?php /*%%SmartyHeaderCode:10254593035c1117ca2-28038218%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
   'file_dependency' => 
   array (
     '0b0434a6688f062612f80c05b921411ab043a0bb' => 
     array (
       0 => 'D:\\xampp\\htdocs\\tiki\\templates\\footer.tpl',
-      1 => 1475506053,
+      1 => 1496331454,
       2 => 'file',
     ),
   ),
-  'nocache_hash' => '233485924444e40e295-62218222',
+  'nocache_hash' => '10254593035c1117ca2-28038218',
   'function' => 
   array (
   ),
@@ -29,9 +29,9 @@ $_valid = $_smarty_tpl->decodeProperties(array (
   ),
   'has_nocache_code' => false,
   'version' => 'Smarty-3.1.21',
-  'unifunc' => 'content_5924444e480c33_75234223',
+  'unifunc' => 'content_593035c119f563_96048292',
 ),false); /*/%%SmartyHeaderCode%%*/?>
-<?php if ($_valid && !is_callable('content_5924444e480c33_75234223')) {function content_5924444e480c33_75234223($_smarty_tpl) {?><?php if (!is_callable('smarty_block_remarksbox')) include 'D:/xampp/htdocs/tiki/lib/smarty_tiki\\block.remarksbox.php';
+<?php if ($_valid && !is_callable('content_593035c119f563_96048292')) {function content_593035c119f563_96048292($_smarty_tpl) {?><?php if (!is_callable('smarty_block_remarksbox')) include 'D:/xampp/htdocs/tiki/lib/smarty_tiki\\block.remarksbox.php';
 if (!is_callable('smarty_function_preference')) include 'D:/xampp/htdocs/tiki/lib/smarty_tiki\\function.preference.php';
 if (!is_callable('smarty_function_button')) include 'D:/xampp/htdocs/tiki/lib/smarty_tiki\\function.button.php';
 if (!is_callable('smarty_function_listfilter')) include 'D:/xampp/htdocs/tiki/lib/smarty_tiki\\function.listfilter.php';

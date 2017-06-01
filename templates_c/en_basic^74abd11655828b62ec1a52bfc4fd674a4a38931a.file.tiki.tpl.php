@@ -1,23 +1,23 @@
-<?php /* Smarty version Smarty-3.1.21, created on 2017-05-23 16:16:45
+<?php /* Smarty version Smarty-3.1.21, created on 2017-06-01 17:45:52
          compiled from "D:\xampp\htdocs\tiki\templates\tiki.tpl" */ ?>
-<?php /*%%SmartyHeaderCode:285045924444da2cc51-03943734%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
+<?php /*%%SmartyHeaderCode:31339593036b0034627-90602959%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
   'file_dependency' => 
   array (
     '74abd11655828b62ec1a52bfc4fd674a4a38931a' => 
     array (
       0 => 'D:\\xampp\\htdocs\\tiki\\templates\\tiki.tpl',
-      1 => 1418770945,
+      1 => 1496331455,
       2 => 'file',
     ),
     'd9d9288e6450019b4fdf3e222267ebe12a1c5d40' => 
     array (
       0 => 'D:\\xampp\\htdocs\\tiki\\templates\\layouts\\basic\\layout_view.tpl',
-      1 => 1479931063,
+      1 => 1496331454,
       2 => 'file',
     ),
   ),
-  'nocache_hash' => '285045924444da2cc51-03943734',
+  'nocache_hash' => '31339593036b0034627-90602959',
   'function' => 
   array (
   ),
@@ -31,9 +31,9 @@ $_valid = $_smarty_tpl->decodeProperties(array (
   ),
   'has_nocache_code' => false,
   'version' => 'Smarty-3.1.21',
-  'unifunc' => 'content_5924444db2e274_16700207',
+  'unifunc' => 'content_593036b0146cb9_99418074',
 ),false); /*/%%SmartyHeaderCode%%*/?>
-<?php if ($_valid && !is_callable('content_5924444db2e274_16700207')) {function content_5924444db2e274_16700207($_smarty_tpl) {?><?php if (!is_callable('smarty_function_html_body_attributes')) include 'D:/xampp/htdocs/tiki/lib/smarty_tiki\\function.html_body_attributes.php';
+<?php if ($_valid && !is_callable('content_593036b0146cb9_99418074')) {function content_593036b0146cb9_99418074($_smarty_tpl) {?><?php if (!is_callable('smarty_function_html_body_attributes')) include 'D:/xampp/htdocs/tiki/lib/smarty_tiki\\function.html_body_attributes.php';
 if (!is_callable('smarty_function_modulelist')) include 'D:/xampp/htdocs/tiki/lib/smarty_tiki\\function.modulelist.php';
 if (!is_callable('smarty_function_feedback')) include 'D:/xampp/htdocs/tiki/lib/smarty_tiki\\function.feedback.php';
 if (!is_callable('smarty_function_icon')) include 'D:/xampp/htdocs/tiki/lib/smarty_tiki\\function.icon.php';

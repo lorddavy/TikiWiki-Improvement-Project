@@ -1,17 +1,17 @@
-<?php /* Smarty version Smarty-3.1.21, created on 2017-05-23 16:17:14
+<?php /* Smarty version Smarty-3.1.21, created on 2017-06-01 17:41:52
          compiled from "D:\xampp\htdocs\tiki\templates\modules\mod-quickadmin.tpl" */ ?>
-<?php /*%%SmartyHeaderCode:294995924446a59f4b7-99797068%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
+<?php /*%%SmartyHeaderCode:23643593035c07e9b65-38062398%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
   'file_dependency' => 
   array (
     'de2d0c35a157f354b057dc2d4b1b8ba9fda70872' => 
     array (
       0 => 'D:\\xampp\\htdocs\\tiki\\templates\\modules\\mod-quickadmin.tpl',
-      1 => 1454335748,
+      1 => 1496331454,
       2 => 'file',
     ),
   ),
-  'nocache_hash' => '294995924446a59f4b7-99797068',
+  'nocache_hash' => '23643593035c07e9b65-38062398',
   'function' => 
   array (
   ),
@@ -28,9 +28,9 @@ $_valid = $_smarty_tpl->decodeProperties(array (
   ),
   'has_nocache_code' => false,
   'version' => 'Smarty-3.1.21',
-  'unifunc' => 'content_5924446a603a78_08726923',
+  'unifunc' => 'content_593035c0857980_15710663',
 ),false); /*/%%SmartyHeaderCode%%*/?>
-<?php if ($_valid && !is_callable('content_5924446a603a78_08726923')) {function content_5924446a603a78_08726923($_smarty_tpl) {?><?php if (!is_callable('smarty_block_tikimodule')) include 'D:/xampp/htdocs/tiki/lib/smarty_tiki\\block.tikimodule.php';
+<?php if ($_valid && !is_callable('content_593035c0857980_15710663')) {function content_593035c0857980_15710663($_smarty_tpl) {?><?php if (!is_callable('smarty_block_tikimodule')) include 'D:/xampp/htdocs/tiki/lib/smarty_tiki\\block.tikimodule.php';
 if (!is_callable('smarty_function_icon')) include 'D:/xampp/htdocs/tiki/lib/smarty_tiki\\function.icon.php';
 if (!is_callable('smarty_modifier_stringfix')) include 'D:/xampp/htdocs/tiki/lib/smarty_tiki\\modifier.stringfix.php';
 if (!is_callable('smarty_function_permission_link')) include 'D:/xampp/htdocs/tiki/lib/smarty_tiki\\function.permission_link.php';
