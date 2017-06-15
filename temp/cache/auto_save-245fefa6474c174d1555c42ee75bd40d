@@ -1,0 +1,163 @@
+! Thank you for becoming a registered member of our community
+As a member of the community, you will be able to attend to a Welcome Barbecue. You can choose your preferred date below, and the winning choice among the last new members will be the date of the event.
+
+In addition, you can propose activities for the Community along the year, lasting more than one day if needed (add a date, and drag & extend events in the full calendar shown below). See the Common Agenda below. You can also display the activities as a resource view.
+{GROUP(groups=>Registered)}
+!!# Choose date for the Welcome Barbecue
+
+^{FADE(label="How does this Tiki 'Doodle' work?" icon="y" bootstrap="y")}
+{CENTER()} {img src="http://doc.tiki.org/display706" thumb="y" width="400" rel="box[g]" link="http://doc.tiki.org/display706" styleimage="border" desc="Click to enlarge" } {CENTER}
+{FADE}^
+
+{CONVENE(title="BBQ" calendarid="1" minvotes="3")}dates_1339236000_John : -1
+dates_1339322400_John : 1
+dates_1339840800_John :
+dates_1339236000_Mary : -1
+dates_1339322400_Mary : 1
+dates_1339840800_Mary : -1
+dates_1339236000_Steve : 1
+dates_1339322400_Steve : -1
+dates_1339840800_Steve : -1
+dates_1339236000_Sue : 1
+dates_1339322400_Sue : 1
+dates_1339840800_Sue : 1
+dates_1339236000_Trevor :
+dates_1339322400_Trevor : 1
+dates_1339840800_Trevor :
+dates_1339236000_John : -1
+dates_1339322400_John : 1
+dates_1339840800_John :
+dates_1339236000_Mary : -1
+dates_1339322400_Mary : 1
+dates_1339840800_Mary : -1
+dates_1339236000_Steve : 1
+dates_1339322400_Steve : -1
+dates_1339840800_Steve : -1
+dates_1339236000_Sue : 1
+dates_1339322400_Sue : 1
+dates_1339840800_Sue : 1
+dates_1339236000_Trevor :
+dates_1339322400_Trevor : 1
+dates_1339840800_Trevor :
+dates_1339236000_John : -1
+dates_1339322400_John : 1
+dates_1339840800_John :
+dates_1339236000_Mary : -1
+dates_1339322400_Mary : 1
+dates_1339840800_Mary : -1
+dates_1339236000_Steve : 1
+dates_1339322400_Steve : -1
+dates_1339840800_Steve : -1
+dates_1339236000_Sue : 1
+dates_1339322400_Sue : 1
+dates_1339840800_Sue : 1
+dates_1339236000_Trevor :
+dates_1339322400_Trevor : 1
+dates_1339840800_Trevor :
+dates_1339236000_John : -1
+dates_1339322400_John : 1
+dates_1339840800_John :
+dates_1339236000_Mary : -1
+dates_1339322400_Mary : 1
+dates_1339840800_Mary : -1
+dates_1339236000_Steve : 1
+dates_1339322400_Steve : -1
+dates_1339840800_Steve : -1
+dates_1339236000_Sue : 1
+dates_1339322400_Sue : 1
+dates_1339840800_Sue : 1
+dates_1339236000_Trevor :
+dates_1339322400_Trevor : 1
+dates_1339840800_Trevor :
+dates_1339236000_John : -1
+dates_1339322400_John : 1
+dates_1339840800_John :
+dates_1339236000_Mary : -1
+dates_1339322400_Mary : 1
+dates_1339840800_Mary : -1
+dates_1339236000_Steve : 1
+dates_1339322400_Steve : -1
+dates_1339840800_Steve : -1
+dates_1339236000_Sue : 1
+dates_1339322400_Sue : 1
+dates_1339840800_Sue : 1
+dates_1339236000_Trevor :
+dates_1339322400_Trevor : 1
+dates_1339840800_Trevor :{CONVENE}
+
+!!# Ideas for the BBQ
+* ((Subject 1))
+* ((Subject 2))
+* ((Subject 3))
+
+
+!!!# Propose type of ingredients for the meal
+
+{PROPOSAL(caption="Vegetarian Food")}
++1~1 John
++1~1 Mary
+0~1 Sue
++1~1 Steve
+-1~1 Trevor
+0~1 admin
++1~1 admin{PROPOSAL}
+
+{PROPOSAL(caption="Vegan Food")}
++1~1 John
+0~1 Mary
+0~1 Sue
+0~1 Steve
+0~1 admin
+-1~1 Trevor{PROPOSAL}
+
+{PROPOSAL(caption="Fish")}
++1~1 John
++1~1 Mary
+0~1 Sue
++1~1 Steve
+-1~1 Trevor{PROPOSAL}
+
+{PROPOSAL(caption="Meat")}
+-1~1 John
++1~1 Mary
+0~1 Sue
+-1~1 Steve
+0~1 Trevor{PROPOSAL}
+
+!!# Add other tentative events in the common Agenda
+{TABS(name="Tracker-as-Calendar-Tabs" tabs="Manage items|Add items" toggle="y" inside_pretty="n")}
+!!! Display tracker items in a calendar or resource view
+Display tracker items in a calendar or resource view, using TrackerCalendar:  http://doc.tiki.org/PluginTrackerCalendar
+
+{trackercalendar trackerId="1" begin="trac_as_cal_start_date" end="trac_as_cal_end_date" resource="trac_as_cal_location" coloring="trac_as_cal_priority"  aweek="n" aday="n" rweek="y" rmonth="n" rday="n" fDayofWeek="1" dView="resourceWeek"}
+
+!!! Filter upcoming events
+{SPLIT(colsize="20%|2%|78%")}
+{TRACKERLIST( } {TRACKERLIST}
+{TRACKERLIST(trackerId="1", ignoreRequestItemId="y", fields="1:3:4:5:10", status="op", showlinks="y", filterfield="5", exactvalue="greaterequal(now)", calendarfielddate="5", calendarviewmode="month", calendarstickypopup="y", calendarviewnavbar="n", calendardelta=month, calendarviewnavbar="partial")} {TRACKERLIST}
+
+---
+~hs~
+---
+{TRACKERFILTER(trackerId="1", filters=1/d:3/d:4/t:(1:4)/sqlsearch, fields="1:3:4:5:10", showtitle=n, showlinks=y, showdesc=n, showinitials=n, showstatus=y, status=op, sort_mode=f_5_asc, displayList="y", filterfield="5", exactvalue="greaterequal(now)", line="n", editableall="y")}{TRACKERFILTER}
+{img src="img/icons/add.png" link="tiki-view_tracker.php?trackerId=1&cookietab=2"} [tiki-view_tracker.php?trackerId=1&cookietab=2|Add event|box]
+
+
+
+
+
+
+
+[tiki-view_tracker.php?trackerId=1&sort_mode=lastModif_asc&status=opc|Show all events] (including closed)
+{SPLIT}
+/////
+!!!Add events to the common agenda
+{tracker trackerId="1" fields="1:3:4:5:10" url="tiki-index.php?page=Tracker_as_Calendar"}
+
+{TABS}
+
+{ELSE}
+{REMARKSBOX(title="Note" type="information")}
+__[tiki-login_scr.php|Login]__ first to see the rest of the page.
+{REMARKSBOX}
+{GROUP}
